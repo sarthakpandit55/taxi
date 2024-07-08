@@ -1,0 +1,103 @@
+
+/* Navbar */
+
+/* .appointment {
+    margin-top: 100px;
+}
+
+.fixed {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 1000;
+} */
+
+.logo {
+    width: 25%;
+    height: auto;
+}
+
+.navbar-nav .nav-link.active{
+    color: #ffc107;
+}
+/* navbar end */
+
+/* image  */
+
+.appointment {
+    background-image: url(https://www.postradar.co.uk/wp-content/uploads/2021/08/Untitled-design-2021-08-18T110320.984.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 115vh; /* adjust the height to your liking */
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .appointment {
+       height: 50vh; /* adjust the height for smaller screens */
+     }
+   }
+   
+   @media only screen and (max-width: 480px) {
+    .appointment {
+       height: 30vh; /* adjust the height for even smaller screens */
+     }
+   }
+/* image end */
+
+.book-cab-tiles {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.book-cab-tiles li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    border: 1px solid #f7b71d;
+    padding: 10px 2px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.book-cab-tiles li.active {
+    border: 1px solid #f7b71d;
+    background-color: #f7b71d;
+    color: white;
+}
+
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: .25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    appearance: none;
+    color-adjust: exact;
+}
+
+.form-check-input:checked[type="radio"] {
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='-4%20-4%208%208'%3E%3Ccircle%20r='2'%20fill='%23fff'/%3E%3C/svg%3E");
+}
+
+
+.form-check-input:checked {
+    background-color: #FDA12B;
+    border-color: #FDA12B;
+}
+
+.form-check-input[type="radio"] {
+    border-radius: 50%;
+}
+
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+}
+
